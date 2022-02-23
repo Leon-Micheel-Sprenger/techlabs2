@@ -1,0 +1,37 @@
+
+
+.btn1 {
+    font-size: 20px !important;
+    font-family: 'ABeeZee' !important;
+    align-items: center !important;
+    color: white !important;
+    text-align: right !important;
+    border: 1px solid #55917F !important;
+    background-color: #55917F !important;
+    height: 50px !important;
+    width: 350px;
+    transition-duration: 0.1s !important;
+}
+
+.btn1:hover {
+
+    background-color: #D5ACA9 !important; 
+    color: white !important;
+    border-color: #D5ACA9 !important;
+    opacity: 1 !important;
+
+
+}
+
+.menu {
+
+    padding: 0%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 50%;
+    align-items: center;
+    text-align: center;
+    font-size: 40 px ;
+    color: white;
+    background-color: #FFFFFF;
+}

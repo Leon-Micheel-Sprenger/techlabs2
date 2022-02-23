@@ -1,0 +1,6 @@
+.footer-container{
+    color: var(--white);
+    font-size: large;
+    background-color: #FFFDFD;
+    padding: 5%;
+}

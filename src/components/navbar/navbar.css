@@ -1,0 +1,24 @@
+
+ 
+/* unvisited link */
+a:link {
+    color:black;
+    font-family: 'Roboto';
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    font-family: 'Roboto';
+}
+
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
