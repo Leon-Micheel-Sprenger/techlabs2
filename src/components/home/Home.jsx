@@ -7,6 +7,10 @@ import GoogleMapReact from "google-map-react";
 import MapPopup from "../dialog/LocationDialog";
 import LocationDialog from "../dialog/LocationDialog";
 import Footer from "../footer/Footer";
+import Offcanvas from 'react';
+import Button from 'react';
+import useState from 'react';
+import render from 'react';
 
 const location = {
     address: 'Görli',
@@ -64,16 +68,16 @@ class Home extends React.Component{
                                 lng={object.lng}
                                 text={object.address}
                             />;
-                            
+
                         })}
-                        
+
                     </GoogleMapReact>
-                    
+
                 </div>
 
-               
+
             </div>
-        
+
         );
     }}
 export default Home;
