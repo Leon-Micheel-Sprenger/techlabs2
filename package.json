@@ -22,7 +22,8 @@
     "react-scripts": "^5.0.0",
     "semantic-ui-css": "git+https://github.com/Semantic-Org/Semantic-UI-CSS.git",
     "semantic-ui-react": "^2.1.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "googlemaps/polyline-codec": "^1.0.20"
   },
   "scripts": {
     "start": "react-scripts start",

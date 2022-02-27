@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import ReactDOM from "react-dom";
 import { render } from "react-dom";
 import {
     BrowserRouter,
@@ -10,14 +10,14 @@ import {
     Route,
 } from "react-router-dom";
 import Login from "./components/login/Login";
-import Map from "./components/home/Home";
+import Home from "./components/home/Home";
 import Menu from "./components/menu/Menu";
 
 render(
   <BrowserRouter>
     <Routes>
         <Route path="/" element={<App/>}>
-            <Route path="" element={<Map/>}/>
+            <Route path="" element={<Home/>}/>
             <Route path="login" element={<Login/>}/>
             <Route path="menu" element={<Menu/>}/>
         </Route>
@@ -25,6 +25,8 @@ render(
   </BrowserRouter>,
   document.getElementById('root')
 );
+
+
 
 /* Alle Routen unter '/' erben das UI von '/'. So kann man bspw. die Navbar in jedem Screen sehen. */
 
