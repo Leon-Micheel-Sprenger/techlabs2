@@ -25,15 +25,25 @@ const LocationPin = ({ text }) => (
 const Cord = () => {
   const [name, setName] = useLocalStorage("coordinates", "");
 };
+console.log(Cord);
 
+const Cords = [
+  {lat: 53.58478057098996, lng: 9.9821214181999},
+  {lat: 53.585353272422545, lng: 9.981594028669774},
+  {lat: 53.58954109166195, lng: 9.986754679446447},
+  {lat: 53.59247130945586, lng: 9.988449891842066},
+  {lat: 53.59310327127206, lng: 9.989269136325957},
+  {lat: 53.59263955626008, lng: 9.99259031579172},
+  {lat: 53.59473749633663, lng: 9.998805353539408}
+];
 
 class Home extends React.Component{
     constructor(props) {
         super(props);
         this.state = {locations: [{
                 address: 'Initial Pin',
-                lat: 52.49632997574632,
-                lng: 13.437847871710412,
+                lat: 53.58478057098996,
+                lng: 9.9821214181999,
             }]};
     }
     renderPolylines (map, maps) {
@@ -91,8 +101,6 @@ class Home extends React.Component{
                                 text={object.address}
                             />;
                         })}
-                        <Marker text={'DUB'} lat={53.42728} lng={-6.24357} />
-                        <Marker text={'YYZ'} lat={43.681583} lng={-79.61146} />
                     </GoogleMapReact>
 
                 </div>
@@ -105,10 +113,9 @@ class Home extends React.Component{
 }
 
 Home.defaultProps = {
-  markers: [{lat: 53.42728, lng: -6.24357},
-    {lat: 43.681583, lng: -79.61146}],
+  markers: Cords,
   center: [52.49632997574632, 13.437847871710412],
-  zoom: 13
+  zoom: 4
 };
 
 export default Home;
