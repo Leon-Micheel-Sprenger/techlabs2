@@ -1,10 +1,8 @@
 import React from 'react';
-import Navbar from "../navbar/Navbar";
 import './header.css'
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from "react-router-dom";
-import LocationDialog from "../dialog/LocationDialog";
-import WidthAndHeight from "../Resp/Respo"
+
 
 const Header = () =>{
     return (

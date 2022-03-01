@@ -1,16 +1,17 @@
 
-
 .btn1 {
     font-size: 20px !important;
     font-family: 'ABeeZee' !important;
+    text-transform: lowercase !important;
     align-items: center !important;
     color: white !important;
     text-align: right !important;
     border: 1px solid #55917F !important;
     background-color: #55917F !important;
-    height: 50px !important;
-    width: 350px;
+    height: 60px !important;
+    width: 350px !important;
     transition-duration: 0.1s !important;
+    justify-content: space-around !important;
 }
 
 .btn1:hover {
@@ -23,7 +24,7 @@
 
 }
 
-.menu {
+.menu-container {
 
     padding: 0%;
     margin-left: auto;
@@ -33,5 +34,7 @@
     text-align: center;
     font-size: 40 px ;
     color: white;
-    background-color: #FFFFFF;
+    justify-content: space-around !important;
+    
 }
+

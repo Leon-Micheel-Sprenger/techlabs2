@@ -37,11 +37,12 @@ import Button from '@mui/material/Button';
 
   return (
     <div className="Location">
-      <Button className="btn" variant="outlined" onClick={getLocation}>
-          Start Journey
+      <Button className="btn2" variant="outlined" onClick={getLocation}>
+          record
       </Button>
-      <Button className="btn" variant="outlined" onClick={stopLocation}>
-          Stop Journey
+
+      <Button className="btn3" variant="outlined" onClick={stopLocation}>
+          stop
       </Button>
     </div>
   );

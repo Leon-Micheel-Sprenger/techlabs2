@@ -3,9 +3,13 @@ p{
    
     font-size: 15px !important;
     text-align: center !important;
-    
 
+}
 
+.wholeLogin {
+
+    align-items: center !important ;
+    justify-content: center !important;
 }
 
 h1 {
@@ -18,19 +22,28 @@ h4 {
     word-wrap: break-word;
 }
 
+.loginRegister {
+    
+    position: absolute !important;
+    width: 300px !important ;
+    height: 45px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    
+}
+
 .loginButton {
 
     text-align: center;
-    vertical-align: middle !important;
-    text-decoration: underline bold;
-    padding: 20px 100px !important;
+    justify-content: center !important;
+    text-decoration: underline bold !important;
     color: black !important;
 
 }
 .registerButton {
 
     text-align: center;
-    text-decoration: underline;
+    text-decoration: underline bold !important;
     text-decoration-color: black;
     color: black !important;
 
@@ -38,9 +51,12 @@ h4 {
 
 .loginForm {
 
-    padding: 20px 100px !important;
+    padding: 100px 250px !important;
     width: 700px;
     font-size: 20px;
+    justify-content: space-around !important;
+    font-family:'ABeeZee' !important ;
+    size: 300% !important;
     
 }
 

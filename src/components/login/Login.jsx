@@ -10,13 +10,17 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 
 
 
+
+
 const Login = () => {
     return (
+
+       
         <div className="wholeLogin">
             <h1>Login</h1>
             <h4>By signing you agree to our Term and privacy policy.</h4>
         
-        
+           
         <div className="loginRegister">
             
         <Button
@@ -66,7 +70,6 @@ const Login = () => {
                                           <LockOutlinedIcon />
                                         </InputAdornment>),
                                     }}
-
                                     variant="standard"
                                     placeholder="Password"
                                     onChange={(event) => {
@@ -77,7 +80,9 @@ const Login = () => {
 
                         </div>
                         <br></br>  
-                        <FormControlLabel control={<Checkbox defaultChecked />} label="Remember password" />
+                        <FormControlLabel 
+                        control={<Checkbox defaultChecked />} 
+                        label="Remember password" />
 
                         <br></br><br></br><br></br>  
 
@@ -88,9 +93,13 @@ const Login = () => {
         
         
         </div>
-        <p> or connect with</p>
 
+        <div className="connect">
+        <p> or connect with</p>
         
+
+        </div>
+       
         </div>
 
                              

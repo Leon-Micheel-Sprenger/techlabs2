@@ -1,15 +1,98 @@
-.review-container{
-    padding-top: 5%;
+.start-journey-container {
+
+  
+   padding: 0 !important;
+   margin: 0 !important;
+   position: absolute !important;
+   top: 80% !important;
+   left: 50% !important;
+   -ms-transform: translate(-50%, -50%) !important;
+   transform: translate(-50%, -50%) !important;
+    
    
     
 }
 
+
+
 .btn {
 
     font-family: 'ABeeZee', sans-serif !important;
-    color: black !important;
+    color: #F8F2F1 !important;
+    font-size: 25px !important;
+    text-transform: lowercase !important;
+    weight: 400 !important;
+    line-height: 29,55px !important;
     border: .2px solid black !important;
+    background-color: #55917F !important;
+    border-color: #55917F !important;
+    position: absolute !important;
+    width: 318px !important ;
+    height: 45px !important;
+    left: 50px !important;
+    top: 90% !important;
+    align-items: center !important;
+    justify-content: center !important;
     
 
+
+}
+
+.btn2 {
+    font-family: 'ABeeZee', sans-serif !important;
+    font-size: 25px !important;
+    text-transform: lowercase !important;
+    color: white !important;
+    background-color: #284B63 !important;
+    border-color: #284B63!important;
+    padding: 10px !important;
+    text-align: center !important;
+    display: inline-block !important;
+    margin: 0 auto !important;
+    width: 100px;
+    height: 100px;
+    left: 50px !important; 
+    top: 90% !important ;
+    outline-style:initial;
+    border-radius: 100px !important;
+   
+}
+
+.btn3 {
+
+    font-family: 'ABeeZee', sans-serif !important;
+    font-size: 25px !important;
+    text-transform: lowercase !important;
+    color: white !important;
+    background-color: #C62F39 !important;
+    border-color: #C62F39!important;
+    text-align: center !important;
+    display: inline-block !important;
+    width: 100px;
+    height: 100px;
+    left: 60px !important; 
+    top: 90% !important ;
+    outline-style:initial;
+    border-radius: 100px !important;
+   
+
+}
+
+.save {
+
+    background-color: #55917F !important;
+    border-color: #55917F !important;
+    text-transform: lowercase !important;
+    font-family: 'ABeeZee' !important;
+    color: white !important;
+    font-size: 13px !important;
+    width: 100px !important;
+    height: 30px !important;
+
+}
+
+.close {
+    color: black !important;
+    position: relative;
 
 }

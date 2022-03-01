@@ -32,7 +32,7 @@ export default function LocationDialog() {
         
         
             <Button className="btn" variant="outlined" onClick={handleClickOpen}>
-                Add Place
+                Add a Place
             </Button>
 
             <Dialog open={open} onClose={handleClose}>
@@ -120,10 +120,10 @@ export default function LocationDialog() {
                     </div>
                 </DialogContent>
                 <DialogActions>
-                    <Button onClick={handleClose}>Save</Button>
-                    <Button onClick={handleClose}>Discard</Button>
+                    <Button className="save" onClick={handleClose}>Save</Button>
+                    <Button className="close" onClick={handleClose}>x</Button>
                 </DialogActions>
             </Dialog>
         </div>
     );
-}  //<StarRating/>
+}  

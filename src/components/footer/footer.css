@@ -2,5 +2,10 @@
     color: var(--white);
     font-size: large;
     background-color: #FFFDFD;
-    padding: 5%;
+    padding: 10%;
+    align-items: center;
+    -webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 }

@@ -8,12 +8,18 @@ const Footer = () =>{
     return (
 
     <div className="footer-container">
-    <div className="add-location-container" style={{display:'inline-block'}}>
-      <LocationDialog/>
-    </div>
     <div className="start-Journey-container" style={{display:'inline-block'}}>
       <Location/>
     </div>
+    <br></br>
+    <br></br>
+    <br></br><br></br><br></br>
+  
+    <div className="add-location-container" style={{display:'inline-block'}}>
+      <LocationDialog/>
+    </div>
+    
+    
 </div>
 
     );

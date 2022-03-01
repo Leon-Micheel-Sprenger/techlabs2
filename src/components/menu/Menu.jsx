@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 
 const Menu = () =>{
     return (
-        <div>
+        <div className="menu-component" >
 
-            <div className="menu">
+            <div className="menu-container">
             <Link to="/"> <Button className="btn1" type="button"> Start a new Journey
                </Button> </Link>  <br/> <br/>
                <Button className="btn1" type="button" > my places</Button> <br/><br/><br/>
