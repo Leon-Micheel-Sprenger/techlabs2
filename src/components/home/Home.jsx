@@ -73,6 +73,8 @@ class Home extends React.Component{
      }
     render(){
 
+      //Map (Google API) with function that sets Markers
+      
         return (
             <div className="map">
                 <div className="google-map">
@@ -89,7 +91,7 @@ class Home extends React.Component{
                             });
                             return <MapPopup/>;
                         } }
-                        bootstrapURLKeys={{ key:''}}
+                        bootstrapURLKeys={{ key:'AIzaSyDSF3sRrD_jHS-OHJwtQBvCAMAluNU_FrY'}}
                         defaultCenter={this.props.center}
                         defaultZoom={this.props.zoom}
                         onGoogleApiLoaded={({map, maps}) => this.renderPolylines(map, maps)}>

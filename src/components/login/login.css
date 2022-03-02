@@ -6,11 +6,6 @@ p{
 
 }
 
-.wholeLogin {
-
-    align-items: center !important ;
-    justify-content: center !important;
-}
 
 h1 {
     text-align: center;
@@ -72,3 +67,15 @@ h4 {
     size: 300% !important;
 }
 
+.header-container {
+    font-family: 'Rammetto One', cursive !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    align-items: flex !important;
+    text-align: center !important;
+    background-color: #FFFDFD !important;
+    padding-bottom: 2% !important;
+    padding-top: 5% !important;
+    color:white !important;
+}

@@ -16,4 +16,3 @@ export default class RatingStars extends Component {
         )
     }
 }
-//<pre>{JSON.stringify(this.state, null, 2)}</pre>

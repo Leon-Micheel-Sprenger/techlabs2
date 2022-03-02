@@ -27,6 +27,7 @@ export default function LocationDialog() {
         setOpen(false);
     };
 
+    //Add a Place Dialog
     return (
         <div>
         
